@@ -31,6 +31,7 @@ synclient TouchpadOff=1
 
 xterm &
 yeahconsole &
+xterm -title mc -e mc &
 
 netwmpager &
 (sleep 1 ; xsysguard clock cpu load mem net_eth0 net_wlan0 temp) &
