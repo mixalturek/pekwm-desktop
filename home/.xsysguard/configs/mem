@@ -1,0 +1,47 @@
+Set Name MEM
+Set Size 64 54
+Set Layer Below
+#Set Background Color black
+Set Background CopyFromRoot 0
+Set Decorations off
+Set Sticky on
+Set Position -0 180
+
+
+#Set Mouse 1 Move
+#Set Mouse 2 Exit
+
+Rectangle 0 0 64 54 #555555
+
+#Rectangle 2 2 60 50 #484848 ColorRange 0 1 50 #161616
+
+Text 0 3 2 58 12 #b0b0b0 Arial_Bold/8 "MEM"
+
+Text 2 3 2 58 12 #b0b0b0 Arial_Bold/8 "%d %%" Alignment TopRight
++ statgrab:mem_stats:used,statgrab:mem_stats:total,DIV,100,MUL
+
+BarChart 4 3 16 58 10 Min 0 Angle 90
++ statgrab:mem_stats:used,statgrab:mem_stats:cache,SUB #538cf5
++ statgrab:mem_stats:cache #0d55db AddPrev
++ statgrab:mem_stats:free #073180 AddPrev
+
+Text 2 3 16 58 10 #ccc Arial_Bold/7 "%d/%d" Alignment Center
++ statgrab:mem_stats:used,1048576,DIV
++ statgrab:mem_stats:total,1048576,DIV
+
+Rectangle 3 16 58 10 #fff2 ColorRange 0 3 5 #ddd2 1 #2222 5 #0002
+
+Text 0 3 27 58 12 #b0b0b0 Arial_Bold/8 "SWAP"
+
+Text 2 3 27 58 12 #b0b0b0 Arial_Bold/8 "%d %%" Alignment TopRight
++ statgrab:swap_stats:used,statgrab:swap_stats:total,DIV,100,MUL
+
+BarChart 4 3 41 58 10 Min 0 Angle 90
++ statgrab:swap_stats:used #0d55db
++ statgrab:swap_stats:free #073180 AddPrev
+
+Text 2 3 41 58 10 #ccc Arial_Bold/7 "%d/%d" Alignment Center
++ statgrab:swap_stats:used,1048576,DIV
++ statgrab:swap_stats:total,1048576,DIV
+
+Rectangle 3 41 58 10 #fff2 ColorRange 0 3 5 #ddd2 1 #2222 5 #0002

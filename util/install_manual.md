@@ -10,8 +10,7 @@ I'm using netwmpager-1.6, but it looks like it disappeared from internet. Links 
 http://www.filewatcher.com/m/netwmpager-1.11p1.tgz.78042-0.html
 http://sourceforge.net/projects/sf-xpaint/files/netwmpager/
 
-```
-./configure
-make
-make install
-```
+
+## xsysguard
+
+http://xsysguard.sourceforge.net/
