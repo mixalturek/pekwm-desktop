@@ -26,6 +26,9 @@ xset m 5/4 1 &
 # Load settings for X tools, missing & at the end is correct
 xrdb -merge ~/.Xdefaults
 
+# Disable touchpad by default
+synclient TouchpadOff=1
+
 xterm &
 yeahconsole &
 
