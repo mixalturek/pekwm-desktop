@@ -25,3 +25,5 @@ xrdb -merge ~/.Xdefaults
 
 xterm &
 yeahconsole &
+
+netwmpager &

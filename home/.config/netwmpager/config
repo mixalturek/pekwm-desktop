@@ -1,0 +1,62 @@
+# copy this file to ~/.config/netwmpager/config
+
+# desktop layout
+# set both to -1 to use default values (set by window manager)
+cols = -1
+rows = -1
+
+# window geometry. height is ignored (calculated automatically)
+#geometry = "98x1-0+0"
+#geometry = "96x9+928+759"
+#geometry = "96x9+1184+1015"
+geometry = "96x9-0-0"
+
+# show window title popups?
+show_popups = true
+
+# show sticky windows in pager?
+show_sticky = false
+
+# show window titles in pager?
+#show_titles = true
+
+# below, normal, above
+layer = "normal"
+
+# opacity. 0.0 = transparent, 1.0 = normal
+# Requires Xcomposite extension in X and
+# xcompmgr or composition manager in WM.
+opacity = 0.60
+
+# -- fonts --
+# run `fc-list' to see available fonts
+#
+# format: "<family>:<option>=<value>:<option>=<value>..."
+#
+# some options:
+#   size       font size
+#   weight     light, medium, demibold, bold or black
+#   slant      roman, italic or oblique
+#   antialias  true or false
+#
+# More information: http://www.keithp.com/~keithp/render/Xft.tutorial
+
+popup_font = "Verdana:size=8"
+window_font = "Verdana:size=7"
+
+# -- colors --
+
+active_desk_color = "rgb:FF/A5/00"
+inactive_desk_color = "rgb:ac/ac/ac"
+win_border_color = "rgb:0/0/0"
+grid_color = "rgb:ff/ff/ff"
+
+#active_win_color = "rgb:99/a6/bf"
+active_win_color = "rgb:f6/f6/f6"
+active_win_font_color = "rgb:0/0/0"
+
+inactive_win_color = "rgb:f6/f6/f6"
+inactive_win_font_color = "rgb:0/0/0"
+
+popup_color = "rgb:e6/e6/e6"
+popup_font_color = "rgb:0/0/0"
