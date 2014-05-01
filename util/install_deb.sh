@@ -9,3 +9,4 @@ apt-get install colorgcc colormake
 apt-get install mplayer
 apt-get install unrar
 apt-get install bash-completion
+apt-get install xxkb

@@ -11,6 +11,11 @@ Configuration files for desktop based on pekwm window manager.
 
 ## Usage
 
+### Switch keyboard layout
+
+Press both shifts. See bin/reset_keyboard_*.sh scripts (us-cz, us-ru).
+
+
 ### yeahconsole
 
 Press F1 to show/hide the console.
