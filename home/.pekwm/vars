@@ -1,1 +1,2 @@
-$TERM="x-terminal-emulator"
+$TERM="xterm"
+$TERM_SMALL="xterm -fn fixed"

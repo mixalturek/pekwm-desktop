@@ -1,0 +1,16 @@
+xterm*foreground: white
+xterm*background: black
+xterm*cursorColor: orange
+xterm*visualbell: off
+xterm*font: -misc-fixed-medium-r-normal-*-*-140-*-*-c-*-iso10646-1
+
+yeahconsole*consoleHeight: 40
+yeahconsole*screenWidth: 1020
+yeahconsole*xOffset: 120
+yeahconsole*stepSize: 0
+yeahconsole*toggleKey: None+F1
+yeahconsole*handleWidth: 1
+yeahconsole*handleColor: white
+yeahconsole*cursorColor: orange
+yeahconsole*visualbell: on
+yeahconsole*font: -misc-fixed-medium-r-normal-*-*-120-*-*-c-*-iso10646-1
