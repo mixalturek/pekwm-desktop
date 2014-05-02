@@ -14,3 +14,15 @@ Screen {
         Model = "CenteredOnParent Smart MouseNotUnder"
     }
 }
+
+Menu {
+    # Defines how menus act on mouse input.
+    # Possible values are: "ButtonPress ButtonRelease DoubleClick Motion"
+    # To make submenus open on mouse over, comment the default Enter,
+    # uncomment the alternative, and reload pekwm.
+
+    Select = "Motion"
+    # Enter = "ButtonPress"
+    Enter = "Motion"
+    Exec = "ButtonRelease"
+}
