@@ -62,7 +62,7 @@ Global {
 	# Menus
 	KeyPress = "Mod4 R" { Actions = "ShowMenu Root" }
 	KeyPress = "Mod4 W" { Actions = "ShowMenu Window" }
-	KeyPress = "Mod4 L" { Actions = "ShowMenu Goto" }
+	# KeyPress = "Mod4 L" { Actions = "ShowMenu Goto" }
 	KeyPress = "Mod4 C" { Actions = "ShowMenu GotoClient" }
 	KeyPress = "Mod4 Shift I" { Actions = "ShowMenu Icon" }
 	KeyPress = "Mod4 X" { Actions = "HideAllMenus" }
@@ -74,10 +74,13 @@ Global {
 	KeyPress = "Pause" { Actions = "Exec $TERM &" }
 
 	# Screenshot
-    KeyPress = "Print" { Actions = "Exec ksnapshot &" }
+	KeyPress = "Print" { Actions = "Exec ksnapshot &" }
 
 	# Run program window
 	KeyPress = "Mod1 F2" { Actions = "Exec gmrun &" }
+
+	# Lock
+	KeyPress = "Mod4 L" { Actions = "Exec xscreensaver-command -lock &" }
 
 	# Increase/decrease volume
 	KeyPress = "Shift F11" { Actions = "Exec bin/volume.sh -2 &" }
