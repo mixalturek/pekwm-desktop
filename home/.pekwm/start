@@ -37,5 +37,5 @@ netwmpager &
 (sleep 1 ; xsysguard clock cpu load mem net_eth0 net_wlan0 temp) &
 xscreensaver &
 
-bin/set_keyboard_us_cz.sh &
+bin/keyboard_us_cz.sh &
 xxkb &
