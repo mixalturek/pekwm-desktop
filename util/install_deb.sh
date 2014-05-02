@@ -12,3 +12,7 @@ apt-get install bash-completion
 apt-get install xxkb
 apt-get install hsetroot
 apt-get install xserver-xorg-input-synaptics # synclient
+apt-get install ksnapshot
+apt-get install gmrun
+apt-get install aumix
+apt-get install xosd-bin

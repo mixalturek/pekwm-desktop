@@ -69,6 +69,20 @@ Global {
 	# External Commands
 	KeyPress = "Mod1 Print" { Actions = "Exec $_PEKWM_SCRIPT_PATH/pekwm_screenshot.sh" }
 	KeyPress = "Mod4 E" { Actions = "Exec $TERM" }
+
+	# New terminal window
+	KeyPress = "Pause" { Actions = "Exec $TERM &" }
+
+	# Screenshot
+    KeyPress = "Print" { Actions = "Exec ksnapshot &" }
+
+	# Run program window
+	KeyPress = "Mod1 F2" { Actions = "Exec gmrun &" }
+
+	# Increase/decrease volume
+	KeyPress = "Shift F11" { Actions = "Exec bin/volume.sh -2 &" }
+	KeyPress = "Shift F12" { Actions = "Exec bin/volume.sh +2 &" }
+
 	# Pekwm control
 	KeyPress = "Ctrl Mod1 Delete" { Actions = "Reload" }
 	KeyPress = "Mod4 D" { Actions = "ShowCmdDialog" }
@@ -294,9 +308,9 @@ InputDialog {
 	KeyPress = "Down" { Actions = "HistNext" }
 	KeyPress = "Ctrl P" { Actions = "HistPrev" }
 	KeyPress = "Ctrl N" { Actions = "HistNext" }
-        KeyPress = "Ctrl B" { Actions = "CursPrev" }
-        KeyPress = "Ctrl F" { Actions = "CursNext" }
-        KeyPress = "Tab" { Actions = "Complete" }
+	KeyPress = "Ctrl B" { Actions = "CursPrev" }
+	KeyPress = "Ctrl F" { Actions = "CursNext" }
+	KeyPress = "Tab" { Actions = "Complete" }
 	KeyPress = "Any Any" { Actions = "Insert" }
 }
 
