@@ -16,3 +16,14 @@ apt-get install ksnapshot
 apt-get install gmrun
 apt-get install aumix
 apt-get install xosd-bin
+apt-get install htop
+apt-get install procps # watch
+apt-get install acpi
+apt-get install kwrite
+apt-get install libreoffice-common
+apt-get install gimp
+apt-get install chromium
+apt-get install iceweasel # firefox
+apt-get install icedove # thunderbird
+apt-get install konqueror
+apt-get install xscreensaver
