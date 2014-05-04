@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get install pewkm
-apt-get install x11-xserver-utils # xset, xrdb
+apt-get install x11-xserver-utils # xset, xrdb, xrandr
 apt-get install xterm
 apt-get install yeahconsole
 apt-get install mc
@@ -27,3 +27,6 @@ apt-get install iceweasel # firefox
 apt-get install icedove # thunderbird
 apt-get install konqueror
 apt-get install xscreensaver
+apt-get install stalonetray
+apt-get install lxrandr
+apt-get install arandr

@@ -35,28 +35,55 @@ RootMenu = "pekwm" {
 
 	Separator {}
 
-	Submenu = "pekwm" {
-		Submenu = "go to" {
-			Submenu = "workspace" {
-				# Create goto menu once per pekwm config reload. The fast way that
-				# will work for most if not all users.
-				COMMAND = "$_PEKWM_SCRIPT_PATH/pekwm_ws_menu.sh goto"
-				# Create goto menu every time the menu is opened. The slow way.
-				# This is what you want if you are using external tools to make
-				# the amount of workspaces something else than what you define in
-				# ~/.pekwm/config. You will know if you want this.
-				# Entry = "" { Actions = "Dynamic $_PEKWM_SCRIPT_PATH/pekwm_ws_menu.sh goto dynamic" }
-			}
-			Entry = "window" { Actions = "ShowMenu GotoClient True" }
+	Submenu = "goto" {
+		Submenu = "workspace" {
+			# Create goto menu once per pekwm config reload. The fast way that
+			# will work for most if not all users.
+			COMMAND = "$_PEKWM_SCRIPT_PATH/pekwm_ws_menu.sh goto"
+			# Create goto menu every time the menu is opened. The slow way.
+			# This is what you want if you are using external tools to make
+			# the amount of workspaces something else than what you define in
+			# ~/.pekwm/config. You will know if you want this.
+			# Entry = "" { Actions = "Dynamic $_PEKWM_SCRIPT_PATH/pekwm_ws_menu.sh goto dynamic" }
 		}
+		Entry = "window" { Actions = "ShowMenu GotoClient True" }
+	}
+
+	Submenu = "config" {
+		Entry = "synaptic" { Actions = "Exec gksu -u root /usr/sbin/synaptic &" }
+		Entry = "xscreensaver" { Actions = "Exec xscreensaver-demo -prefs &" }
+
+		Separator {}
+
+		Entry = "xxkb" { Actions = "Exec xxkb &" }
+		Entry = "netwmpager" { Actions = "Exec netwmpager &" }
+		Entry = "xsysguard" { Actions = "Exec xsysguard clock cpu load mem net_eth0 net_wlan0 temp &" }
+		Entry = "stalonetray" { Actions = "Exec stalonetray &" }
+
+		Separator {}
+
+		# Entry = "wicd" { Actions = "Exec wicd-client -n &" }
+		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
+		Entry = "keyboard us,cz" { Actions = "Exec bin/keyboard_us_cz.sh &" }
+		Entry = "keyboard us,ru" { Actions = "Exec bin/keyboard_us_ru.sh &" }
+		Entry = "touchpad on" { Actions = "Exec synclient TouchpadOff=0 &" }
+		Entry = "touchpad off" { Actions = "Exec synclient TouchpadOff=1 &" }
+
+		Separator {}
+
+		Entry = "xrandr auto" { Actions = "Exec xrandr --auto &" }
+		Entry = "arandr" { Actions = "Exec arandr &" }
+		Entry = "lxrandr" { Actions = "Exec lxrandr &" }
+
+		Separator {}
 
 		Submenu = "themes" {
 			Entry { Actions = "Dynamic $_PEKWM_SCRIPT_PATH/pekwm_themeset.sh $_PEKWM_THEME_PATH" }
 			Entry { Actions = "Dynamic $_PEKWM_SCRIPT_PATH/pekwm_themeset.sh ~/.pekwm/themes" }
 		}
+	}
 
-		Separator {}
-
+	Submenu = "pekwm" {
 		Entry = "lock" { Actions = "Exec xscreensaver-command -lock &" }
 
 		Separator {}
