@@ -21,7 +21,7 @@ show_sticky = false
 #show_titles = true
 
 # below, normal, above
-layer = "normal"
+layer = "above"
 
 # opacity. 0.0 = transparent, 1.0 = normal
 # Requires Xcomposite extension in X and

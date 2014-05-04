@@ -77,16 +77,6 @@ Property = "xsysguard,xsysguard"
 	ApplyOn = "New Start Reload Transient"
 	Skip = "Menus FocusToggle"
 	Focusable = "False"
-	Layer = "Desktop"
-}
-
-Property = "netwmpager"
-{
-	ApplyOn = "New Start Reload Transient"
-	Skip = "Menus FocusToggle"
-	Focusable = "False"
-	Layer = "OnTop"
-	Sticky = "True"
 }
 
 Property = "xterm,XTerm"
