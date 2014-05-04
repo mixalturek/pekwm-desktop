@@ -30,3 +30,4 @@ apt-get install xscreensaver
 apt-get install stalonetray
 apt-get install lxrandr
 apt-get install arandr
+apt-get install droopy

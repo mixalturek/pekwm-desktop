@@ -29,3 +29,33 @@ alias du1='du --max-depth=1'
 alias playdir='mplayer `ls -1 *.mp3 *.MP3 *.wma | shuf`'
 alias mplayer='mplayer -stop-xscreensaver '
 alias qtcreatorUpdateProject='find . -type f | sort'
+
+function ctar
+{
+	if [ -z "$1" ]
+	then
+		echo "Usage: ctar directory"
+	else
+		tar -cvzf `echo "$1" | sed 's/\///'`.tar.gz "$1"
+	fi
+}
+
+function ctard
+{
+	if [ -z "$1" ]
+	then
+		echo "Usage: ctard directory"
+	else
+		tar -cvzf `echo "$1" | sed 's/\///'`_`date +%F`.tar.gz "$1"
+	fi
+}
+
+function xtar
+{
+	if [ -z "$1" ]
+	then
+		echo "Usage: xtar directory"
+	else
+		tar -xvvzf $1
+	fi
+}
