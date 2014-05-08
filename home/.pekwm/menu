@@ -4,7 +4,6 @@
 INCLUDE = "vars"
 
 RootMenu = "pekwm" {
-	Entry = "run..." { Actions = "Exec gmrun &" }
 	Entry = "xterm" { Actions = "Exec $TERM &" }
 	Entry = "mc" { Actions = "Exec $TERM -title mc -e mc &" }
 	Entry = "htop" { Actions = "Exec $TERM -e htop &" }
@@ -12,7 +11,13 @@ RootMenu = "pekwm" {
 
 	Separator {}
 
+	Entry = "idea" { Actions = "Exec idea.sh &" }
+	Entry = "eclipse" { Actions = "Exec eclipse &" }
+	Entry = "qtcreator" { Actions = "Exec qtcreator &" }
 	Entry = "kwrite" { Actions = "Exec kwrite &" }
+
+	Separator {}
+
 	Entry = "ooo" { Actions = "Exec libreoffice &" }
 	Entry = "gimp" { Actions = "Exec gimp &" }
 
@@ -20,13 +25,14 @@ RootMenu = "pekwm" {
 		Entry = "chrome" { Actions = "Exec google-chrome &" }
 		Entry = "chromium" { Actions = "Exec chromium &" }
 		Entry = "opera" { Actions = "Exec opera &" }
-		Entry = "firefox" { Actions = "Exec iceweasel &" }
+		Entry = "iceweasel" { Actions = "Exec iceweasel &" }
 		Entry = "konqueror" { Actions = "Exec konqueror &" }
 
 		Separator {}
 
-		Entry = "thunderbird" { Actions = "Exec icedove &" }
+		Entry = "icedove" { Actions = "Exec icedove &" }
 		Entry = "esmska" { Actions = "Exec esmska &" }
+		Entry = "pidgin" { Actions = "Exec pidgin &" }
 
 		Separator {}
 
@@ -34,20 +40,6 @@ RootMenu = "pekwm" {
 	}
 
 	Separator {}
-
-	Submenu = "goto" {
-		Submenu = "workspace" {
-			# Create goto menu once per pekwm config reload. The fast way that
-			# will work for most if not all users.
-			COMMAND = "$_PEKWM_SCRIPT_PATH/pekwm_ws_menu.sh goto"
-			# Create goto menu every time the menu is opened. The slow way.
-			# This is what you want if you are using external tools to make
-			# the amount of workspaces something else than what you define in
-			# ~/.pekwm/config. You will know if you want this.
-			# Entry = "" { Actions = "Dynamic $_PEKWM_SCRIPT_PATH/pekwm_ws_menu.sh goto dynamic" }
-		}
-		Entry = "window" { Actions = "ShowMenu GotoClient True" }
-	}
 
 	Submenu = "config" {
 		Entry = "synaptic" { Actions = "Exec gksu -u root /usr/sbin/synaptic &" }
@@ -59,11 +51,11 @@ RootMenu = "pekwm" {
 		Entry = "netwmpager" { Actions = "Exec netwmpager &" }
 		Entry = "xsysguard" { Actions = "Exec xsysguard clock cpu load mem net_eth0 net_wlan0 temp &" }
 		Entry = "stalonetray" { Actions = "Exec stalonetray &" }
+		# Entry = "wicd" { Actions = "Exec wicd-client -n &" }
+		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
 
 		Separator {}
 
-		# Entry = "wicd" { Actions = "Exec wicd-client -n &" }
-		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
 		Entry = "keyboard us,cz" { Actions = "Exec bin/keyboard_us_cz.sh &" }
 		Entry = "keyboard us,ru" { Actions = "Exec bin/keyboard_us_ru.sh &" }
 		Entry = "touchpad on" { Actions = "Exec synclient TouchpadOff=0 &" }
@@ -71,9 +63,10 @@ RootMenu = "pekwm" {
 
 		Separator {}
 
-		Entry = "xrandr auto" { Actions = "Exec xrandr --auto &" }
 		Entry = "arandr" { Actions = "Exec arandr &" }
-		Entry = "lxrandr" { Actions = "Exec lxrandr &" }
+		Entry = "auto" { Actions = "Exec xrandr --auto &" }
+		Entry = "monitor" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --off &" }
+		Entry = "gui reset" { Actions = "Exec bin/gui_reset.sh &" }
 
 		Separator {}
 
@@ -94,8 +87,8 @@ RootMenu = "pekwm" {
 
 		Separator {}
 
-		Entry = "reboot" { Actions = "Exec sudo shutdown -r now" }
-		Entry = "halt" { Actions = "Exec sudo shutdown -h now" }
+		Entry = "reboot" { Actions = "Exec sudo /sbin/reboot" }
+		Entry = "halt" { Actions = "Exec sudo /sbin/halt" }
 	}
 	Separator {}
 	INCLUDE = "debian-menu"

@@ -1,10 +1,11 @@
 #!/bin/bash
 
-apt-get install pewkm
+apt-get install pekwm
 apt-get install x11-xserver-utils # xset, xrdb, xrandr
 apt-get install xterm
 apt-get install yeahconsole
 apt-get install mc
+apt-get install vim
 apt-get install colorgcc colormake
 apt-get install mplayer
 apt-get install unrar
@@ -31,3 +32,15 @@ apt-get install stalonetray
 apt-get install lxrandr
 apt-get install arandr
 apt-get install droopy
+apt-get install gksu
+apt-get install meld
+apt-get install pidgin
+
+# apt-get install libiw-dev # xsysguard compilation
+# apt-get install libsensors4-dev # xsysguard compilation
+# apt-get install libimlib2-dev # xsysguard compilation
+# apt-get install libstatgrab-dev # xsysguard compilation
+# apt-get install ttf-mscorefonts-installer # xsysguard
+# apt-get install statgrab # xsysguard
+
+# apt-get install libxft-dev # netwmpager compilation

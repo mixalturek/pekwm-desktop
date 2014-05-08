@@ -20,15 +20,15 @@
 */
 
 
-# Identifier
-# xprop WM_CLASS
-# xprop WM_CLASS | sed 's/.*"\(.*\)", "\(.*\)".*/"\1,\2" /g'
+// Identifier
+// xprop WM_CLASS
+// xprop WM_CLASS | sed 's/.*"\(.*\)", "\(.*\)".*/"\1,\2" /g'
 
-# Window title (Title = "")
-# xprop WM_NAME
+// Window title (Title = "")
+// xprop WM_NAME
 
-# Window role in the application (Role = "")
-# xprop WM_WINDOW_ROLE
+// Window role in the application (Role = "")
+// xprop WM_WINDOW_ROLE
 
 
 Require
@@ -63,7 +63,7 @@ Define = "INTERNET"
 
 Define = "REPOSITORY"
 {
-	Workspace = "5"
+	Workspace = "6"
 	MaximizedHorizontal = "True"
 	MaximizedVertical = "True"
 	ApplyOn = "New Start Reload"
@@ -100,6 +100,15 @@ Property = "Eclipse,Eclipse"
 {
 	@EDITOR
 }
+Property = "sun-awt-X11-XFramePeer,jetbrains-idea-ce"
+{
+	@EDITOR
+}
+Property = "sun-awt-X11-XDialogPeer,jetbrains-idea-ce"
+{
+	// Always on top
+	@DIALOG
+}
 Property = "meld,Meld"
 {
 	@EDITOR
@@ -125,11 +134,23 @@ Property = "Mail,Icedove"
 {
 	@INTERNET
 }
+Property = "Msgcompose,Icedove"
+{
+	@INTERNET
+}
 Property = "chromium-browser,Chromium-browser"
 {
 	@INTERNET
 }
+Property = "chromium,Chromium"
+{
+	@INTERNET
+}
 Property = "google-chrome,Google-chrome"
+{
+	@INTERNET
+}
+Property = "konqueror,Konqueror"
 {
 	@INTERNET
 }
@@ -143,9 +164,16 @@ Property = "rapidsvn,Rapidsvn"
 	@REPOSITORY
 }
 
+Property = "Pidgin,Pidgin"
+{
+	Workspace = "5"
+	MaximizedVertical = "True"
+	ApplyOn = "New Start Reload"
+}
+
 Property = "gimp,Gimp"
 {
-	Workspace = "6"
+	Workspace = "5"
 	ApplyOn = "New Start Reload"
 }
 

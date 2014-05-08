@@ -9,7 +9,10 @@ else
     export PS1='[\[\033[01;32m\]\u@\h\[\033[00m\] \[\033[01;34m\]\W\[\033[00m\]]\$ '
 fi
 
-export PATH=$PATH:~/bin
+# Set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ]; then
+    export PATH=$PATH:$HOME/bin
+fi
 
 # Disable beep on error input
 [ -z "$DISPLAY" ] && setterm -blength 0 || xset b off
@@ -29,6 +32,8 @@ alias du1='du --max-depth=1'
 alias playdir='mplayer `ls -1 *.mp3 *.MP3 *.wma | shuf`'
 alias mplayer='mplayer -stop-xscreensaver '
 alias qtcreatorUpdateProject='find . -type f | sort'
+alias ipAddress="/sbin/ifconfig | grep 'inet addr:' | sed 's/.*inet addr:\([0-9]*.[0-9]*.[0-9]*.[0-9]*\).*/\1/'"
+alias droopyAddress="ipAddress | sed 's%^%http://%' | sed 's%$%:8000/%'"
 
 function ctar
 {
