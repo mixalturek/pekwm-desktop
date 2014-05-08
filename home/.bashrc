@@ -17,6 +17,8 @@ fi
 # Disable beep on error input
 [ -z "$DISPLAY" ] && setterm -blength 0 || xset b off
 
+export EDITOR=vim
+
 . /etc/bash_completion
 
 alias grep='grep --color=auto -s --exclude-dir=.git'
