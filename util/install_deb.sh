@@ -1,46 +1,49 @@
 #!/bin/bash
 
-apt-get install pekwm
-apt-get install x11-xserver-utils # xset, xrdb, xrandr
-apt-get install xterm
-apt-get install yeahconsole
-apt-get install mc
-apt-get install vim
-apt-get install colorgcc colormake
-apt-get install mplayer
-apt-get install unrar
-apt-get install bash-completion
-apt-get install xxkb
-apt-get install hsetroot
-apt-get install xserver-xorg-input-synaptics # synclient
-apt-get install ksnapshot
-apt-get install gmrun
-apt-get install aumix
-apt-get install xosd-bin
-apt-get install htop
-apt-get install procps # watch
-apt-get install acpi
-apt-get install kwrite
-apt-get install libreoffice-common
-apt-get install gimp
-apt-get install chromium
-apt-get install iceweasel # firefox
-apt-get install icedove # thunderbird
-apt-get install konqueror
-apt-get install xscreensaver
-apt-get install stalonetray
-apt-get install lxrandr
-apt-get install arandr
-apt-get install droopy
-apt-get install gksu
-apt-get install meld
-apt-get install pidgin
+apt-get install --yes pekwm
+apt-get install --yes x11-xserver-utils # xset, xrdb, xrandr
+apt-get install --yes xterm
+apt-get install --yes yeahconsole
+apt-get install --yes mc
+apt-get install --yes vim
+apt-get install --yes colorgcc colormake
+apt-get install --yes mplayer
+apt-get install --yes unrar
+apt-get install --yes bash-completion
+apt-get install --yes xxkb
+apt-get install --yes hsetroot
+apt-get install --yes xserver-xorg-input-synaptics # synclient
+apt-get install --yes ksnapshot
+apt-get install --yes gmrun
+apt-get install --yes aumix
+apt-get install --yes xosd-bin
+apt-get install --yes htop
+apt-get install --yes procps # watch
+apt-get install --yes acpi
+apt-get install --yes kwrite
+apt-get install --yes libreoffice-common
+apt-get install --yes gimp
+apt-get install --yes chromium
+apt-get install --yes iceweasel # firefox
+apt-get install --yes icedove # thunderbird
+apt-get install --yes konqueror
+apt-get install --yes xscreensaver
+apt-get install --yes stalonetray
+apt-get install --yes lxrandr
+apt-get install --yes arandr
+apt-get install --yes droopy
+apt-get install --yes gksu
+apt-get install --yes meld
+apt-get install --yes pidgin
 
-# apt-get install libiw-dev # xsysguard compilation
-# apt-get install libsensors4-dev # xsysguard compilation
-# apt-get install libimlib2-dev # xsysguard compilation
-# apt-get install libstatgrab-dev # xsysguard compilation
-# apt-get install ttf-mscorefonts-installer # xsysguard
-# apt-get install statgrab # xsysguard
+apt-get install --yes libiw-dev # xsysguard compilation
+apt-get install --yes libsensors4-dev # xsysguard compilation
+apt-get install --yes libimlib2-dev # xsysguard compilation
+apt-get install --yes libstatgrab-dev # xsysguard compilation
+apt-get install --yes ttf-mscorefonts-installer # xsysguard
+apt-get install --yes statgrab # xsysguard
+apt-get install --yes xsltproc # xsysguard
+apt-get install --yes source-highlight # xsysguard
 
-# apt-get install libxft-dev # netwmpager compilation
+apt-get install --yes pkg-config # netwmpager compilation
+apt-get install --yes libxft-dev # netwmpager compilation
