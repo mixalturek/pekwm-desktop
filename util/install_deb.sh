@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/bin/bash -x
+
+apt-get update
 
 apt-get install --yes pekwm
 apt-get install --yes x11-xserver-utils # xset, xrdb, xrandr
