@@ -11,12 +11,13 @@ https://github.com/mixalturek/netwmpager
 ## xsysguard
 
 http://xsysguard.sourceforge.net/
+
 https://github.com/mixalturek/xsysguard
 
 
 ## Special repositories
 
-```
+```shell
 apt-get install google-chrome-stable
 apt-get install opera
 apt-get install esmska
@@ -28,9 +29,10 @@ apt-get install subdownloader
 
 Allow user "username" to shutdown and reboot in sudo.
 
-```
+```shell
 su -
 visudo
 
-username       ALL= NOPASSWD: /sbin/shutdown
+username       ALL= NOPASSWD: /sbin/halt
+username       ALL= NOPASSWD: /sbin/reboot
 ```

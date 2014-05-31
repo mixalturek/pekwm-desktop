@@ -5,11 +5,9 @@
 cols = -1
 rows = -1
 
-# window geometry. height is ignored (calculated automatically)
-#geometry = "98x1-0+0"
-#geometry = "96x9+928+759"
-#geometry = "96x9+1184+1015"
-geometry = "96x9-0-0"
+# window geometry
+# set height to 0 to make it automatically calculated
+geometry = "96x0-0-0"
 
 # show window title popups?
 show_popups = true
@@ -18,7 +16,7 @@ show_popups = true
 show_sticky = false
 
 # show window titles in pager?
-#show_titles = true
+show_titles = false
 
 # below, normal, above
 layer = "above"
@@ -27,6 +25,9 @@ layer = "above"
 # Requires Xcomposite extension in X and
 # xcompmgr or composition manager in WM.
 opacity = 0.60
+
+# allow other windows to cover pager?
+#allow_cover = false
 
 # -- fonts --
 # run `fc-list' to see available fonts
@@ -51,7 +52,6 @@ inactive_desk_color = "rgb:ac/ac/ac"
 win_border_color = "rgb:0/0/0"
 grid_color = "rgb:ff/ff/ff"
 
-#active_win_color = "rgb:99/a6/bf"
 active_win_color = "rgb:f6/f6/f6"
 active_win_font_color = "rgb:0/0/0"
 
