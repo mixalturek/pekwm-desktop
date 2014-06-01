@@ -20,6 +20,7 @@ RootMenu = "pekwm" {
 
 	Entry = "ooo" { Actions = "Exec libreoffice &" }
 	Entry = "gimp" { Actions = "Exec gimp &" }
+	Entry = "hp" { Actions = "Exec hp-toolbox &" }
 
 	Submenu = "net"	{
 		Entry = "chrome" { Actions = "Exec google-chrome &" }
