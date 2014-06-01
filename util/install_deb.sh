@@ -1,5 +1,11 @@
 #!/bin/bash -x
 
+#
+# Install various tools (Debian packages) used in the configuration.
+#
+# @author Michal Turek
+#
+
 apt-get update
 
 apt-get install --yes pekwm
@@ -47,5 +53,5 @@ apt-get install --yes statgrab # xsysguard
 apt-get install --yes xsltproc # xsysguard
 apt-get install --yes source-highlight # xsysguard
 
-apt-get install --yes pkg-config # netwmpager compilation
-apt-get install --yes libxft-dev # netwmpager compilation
+# apt-get install --yes pkg-config # netwmpager compilation
+# apt-get install --yes libxft-dev # netwmpager compilation
