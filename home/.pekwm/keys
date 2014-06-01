@@ -83,8 +83,8 @@ Global {
 	KeyPress = "Mod4 L" { Actions = "Exec xscreensaver-command -lock &" }
 
 	# Increase/decrease volume
-	KeyPress = "XF86AudioLowerVolume" { Actions = "Exec bin/volume.sh -2 &" }
-	KeyPress = "XF86AudioRaiseVolume" { Actions = "Exec bin/volume.sh +2 &" }
+	KeyPress = "XF86AudioLowerVolume" { Actions = "Exec bin/volume.sh 2%- &" }
+	KeyPress = "XF86AudioRaiseVolume" { Actions = "Exec bin/volume.sh 2%+ &" }
 
 	# Pekwm control
 	KeyPress = "Ctrl Mod1 Delete" { Actions = "Reload" }

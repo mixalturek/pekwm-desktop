@@ -17,7 +17,7 @@ apt-get install --yes hsetroot
 apt-get install --yes xserver-xorg-input-synaptics # synclient
 apt-get install --yes ksnapshot
 apt-get install --yes gmrun
-apt-get install --yes aumix
+apt-get install --yes alsa-utils
 apt-get install --yes xosd-bin
 apt-get install --yes htop
 apt-get install --yes procps # watch
