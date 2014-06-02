@@ -12,6 +12,7 @@ RootMenu = "pekwm" {
 	Separator {}
 
 	Entry = "idea" { Actions = "Exec idea.sh &" }
+	Entry = "jvisualvm" { Actions = "Exec jvisualvm &" }
 	Entry = "eclipse" { Actions = "Exec eclipse &" }
 	Entry = "qtcreator" { Actions = "Exec qtcreator &" }
 	Entry = "kwrite" { Actions = "Exec kwrite &" }
