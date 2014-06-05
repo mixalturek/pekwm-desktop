@@ -23,7 +23,13 @@ RootMenu = "pekwm" {
 	Entry = "gimp" { Actions = "Exec gimp &" }
 	Entry = "hp" { Actions = "Exec hp-toolbox &" }
 
-	Submenu = "net"	{
+	Separator {}
+
+	Submenu = "ssh" {
+		Entry = "ssh" { Actions = "Dynamic bin/pekwm_ssh_menu.py" }
+	}
+
+	Submenu = "net" {
 		Entry = "chrome" { Actions = "Exec google-chrome &" }
 		Entry = "chromium" { Actions = "Exec chromium &" }
 		Entry = "opera" { Actions = "Exec opera &" }
