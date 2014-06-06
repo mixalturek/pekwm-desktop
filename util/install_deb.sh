@@ -44,14 +44,14 @@ apt-get install --yes gksu
 apt-get install --yes meld
 apt-get install --yes pidgin
 
-apt-get install --yes libiw-dev # xsysguard compilation
-apt-get install --yes libsensors4-dev # xsysguard compilation
-apt-get install --yes libimlib2-dev # xsysguard compilation
-apt-get install --yes libstatgrab-dev # xsysguard compilation
-apt-get install --yes ttf-mscorefonts-installer # xsysguard
-apt-get install --yes statgrab # xsysguard
-apt-get install --yes xsltproc # xsysguard
-apt-get install --yes source-highlight # xsysguard
+# apt-get install --yes libiw-dev # xsysguard compilation
+# apt-get install --yes libsensors4-dev # xsysguard compilation
+# apt-get install --yes libimlib2-dev # xsysguard compilation
+# apt-get install --yes libstatgrab-dev # xsysguard compilation
+# apt-get install --yes ttf-mscorefonts-installer # xsysguard
+# apt-get install --yes statgrab # xsysguard
+# apt-get install --yes xsltproc # xsysguard compilation
+# apt-get install --yes source-highlight # xsysguard compilation
 
 # apt-get install --yes pkg-config # netwmpager compilation
 # apt-get install --yes libxft-dev # netwmpager compilation

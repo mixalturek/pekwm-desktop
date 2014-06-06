@@ -3,6 +3,8 @@
 #
 # Generate pekwm dynamic menu for entries in ~/.ssh/config
 #
+# @author Michal Turek
+#
 
 import os
 import re
