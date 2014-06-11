@@ -49,6 +49,10 @@ RootMenu = "pekwm" {
 
 	Separator {}
 
+	Submenu = "debian" {
+		INCLUDE = "$_PEKWM_ETC_PATH/debian-menu"
+	}
+
 	Submenu = "config" {
 		Entry = "synaptic" { Actions = "Exec gksu -u root /usr/sbin/synaptic &" }
 		Entry = "xscreensaver" { Actions = "Exec xscreensaver-demo -prefs &" }
@@ -57,7 +61,7 @@ RootMenu = "pekwm" {
 
 		Entry = "xxkb" { Actions = "Exec xxkb &" }
 		Entry = "netwmpager" { Actions = "Exec netwmpager &" }
-		Entry = "xsysguard" { Actions = "Exec xsysguard smallgray/clock smallgray/cpu smallgray/load smallgray/mem smallgray/net_eth0 smallgray/net_wlan0 &" }
+		Entry = "xsysguard" { Actions = "Exec xsysguard_smallgray temp &" }
 		Entry = "stalonetray" { Actions = "Exec stalonetray &" }
 		# Entry = "wicd" { Actions = "Exec wicd-client -n &" }
 		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
@@ -98,8 +102,6 @@ RootMenu = "pekwm" {
 		Entry = "reboot" { Actions = "Exec sudo /sbin/reboot" }
 		Entry = "halt" { Actions = "Exec sudo /sbin/halt" }
 	}
-	Separator {}
-	INCLUDE = "debian-menu"
 }
 
 WindowMenu = "Window Menu" {

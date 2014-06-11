@@ -39,7 +39,7 @@ yeahconsole &
 xterm -title mc -e mc &
 
 netwmpager &
-xsysguard smallgray/clock smallgray/cpu smallgray/load smallgray/mem smallgray/net_eth0 smallgray/net_wlan0 &
+xsysguard_smallgray temp &
 xscreensaver &
 
 bin/keyboard_us_cz.sh &
