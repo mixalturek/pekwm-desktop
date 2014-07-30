@@ -43,6 +43,7 @@ apt-get install --yes droopy
 apt-get install --yes gksu
 apt-get install --yes meld
 apt-get install --yes pidgin
+apt-get install --yes qupzilla
 
 # apt-get install --yes libiw-dev # xsysguard compilation
 # apt-get install --yes libsensors4-dev # xsysguard compilation

@@ -100,11 +100,16 @@ Property = "Eclipse,Eclipse"
 {
 	@EDITOR
 }
-Property = "sun-awt-X11-XFramePeer,jetbrains-idea-ce"
+Property = "sun-awt-X11-XFramePeer,jetbrains-idea"
 {
 	@EDITOR
 }
-Property = "sun-awt-X11-XFramePeer,Java VisualVM"
+Property = "sun-awt-X11-XDialogPeer,jetbrains-idea"
+{
+	// Always on top
+	@DIALOG
+}
+Property = "sun-awt-X11-XFramePeer,jetbrains-idea-ce"
 {
 	@EDITOR
 }
@@ -112,6 +117,14 @@ Property = "sun-awt-X11-XDialogPeer,jetbrains-idea-ce"
 {
 	// Always on top
 	@DIALOG
+}
+Property = "sun-awt-X11-XFramePeer,Java VisualVM"
+{
+	@EDITOR
+}
+Property = "Oracle Java Mission Control,Oracle Java Mission Control"
+{
+	@EDITOR
 }
 Property = "meld,Meld"
 {
@@ -150,11 +163,19 @@ Property = "chromium,Chromium"
 {
 	@INTERNET
 }
+Property = "Chromium,Chromium"
+{
+	@INTERNET
+}
 Property = "google-chrome,Google-chrome"
 {
 	@INTERNET
 }
 Property = "konqueror,Konqueror"
+{
+	@INTERNET
+}
+Property = "QupZilla Browser,QupZilla"
 {
 	@INTERNET
 }

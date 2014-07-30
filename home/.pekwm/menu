@@ -12,7 +12,6 @@ RootMenu = "pekwm" {
 	Separator {}
 
 	Entry = "idea" { Actions = "Exec idea.sh &" }
-	Entry = "jvisualvm" { Actions = "Exec jvisualvm &" }
 	Entry = "eclipse" { Actions = "Exec eclipse &" }
 	Entry = "qtcreator" { Actions = "Exec qtcreator &" }
 	Entry = "kwrite" { Actions = "Exec kwrite &" }
@@ -32,6 +31,7 @@ RootMenu = "pekwm" {
 	Submenu = "net" {
 		Entry = "chrome" { Actions = "Exec google-chrome &" }
 		Entry = "chromium" { Actions = "Exec chromium &" }
+		Entry = "qupzilla" { Actions = "Exec qupzilla &" }
 		Entry = "opera" { Actions = "Exec opera &" }
 		Entry = "iceweasel" { Actions = "Exec iceweasel &" }
 		Entry = "konqueror" { Actions = "Exec konqueror &" }

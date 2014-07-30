@@ -15,7 +15,7 @@ if [ -d "$HOME/bin" ]; then
 fi
 
 # Disable beep on error input
-[ -z "$DISPLAY" ] && setterm -blength 0 || xset b off
+[ -z "$DISPLAY" ] && setterm -blength 0 || xset b off 2>/dev/null
 
 export EDITOR=vim
 
