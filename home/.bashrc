@@ -15,7 +15,7 @@ if [ -d "$HOME/bin" ]; then
 fi
 
 # Disable beep on error input
-[ -z "$DISPLAY" ] && setterm -blength 0 || xset b off 2>/dev/null
+[ -z "$DISPLAY" ] && setterm -blength 0 2>/dev/null || xset b off 2>/dev/null
 
 export EDITOR=vim
 
@@ -36,6 +36,7 @@ alias mplayer='mplayer -stop-xscreensaver '
 alias qtcreatorUpdateProject='find . -type f | sort'
 alias ipAddress="/sbin/ifconfig | grep 'inet addr:' | sed 's/.*inet addr:\([0-9]*.[0-9]*.[0-9]*.[0-9]*\).*/\1/'"
 alias droopyAddress="ipAddress | sed 's%^%http://%' | sed 's%$%:8000/%'"
+alias pythonHttpServer='python -m SimpleHTTPServer 50000'
 
 function ctar
 {
