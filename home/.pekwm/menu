@@ -61,7 +61,7 @@ RootMenu = "pekwm" {
 
 		Entry = "xxkb" { Actions = "Exec xxkb &" }
 		Entry = "netwmpager" { Actions = "Exec netwmpager &" }
-		Entry = "xsysguard" { Actions = "Exec xsysguard_smallgray temp &" }
+		Entry = "xsysguard" { Actions = "Exec xsysguard_biggray biggray/temp &" }
 		Entry = "stalonetray" { Actions = "Exec stalonetray &" }
 		# Entry = "wicd" { Actions = "Exec wicd-client -n &" }
 		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
