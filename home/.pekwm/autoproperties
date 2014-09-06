@@ -171,6 +171,10 @@ Property = "google-chrome,Google-chrome"
 {
 	@INTERNET
 }
+Property = "Google-chrome,Google-chrome"
+{
+	@INTERNET
+}
 Property = "konqueror,Konqueror"
 {
 	@INTERNET
