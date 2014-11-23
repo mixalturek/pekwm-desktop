@@ -61,16 +61,6 @@ Define = "INTERNET"
 	Group = "internet" { Size = "0" }
 }
 
-Define = "REPOSITORY"
-{
-	Workspace = "6"
-	MaximizedHorizontal = "True"
-	MaximizedVertical = "True"
-	ApplyOn = "New Start Reload"
-	Group = "repository" { Size = "0" }
-}
-
-
 
 Property = "xsysguard,xsysguard"
 {
@@ -130,6 +120,14 @@ Property = "meld,Meld"
 {
 	@EDITOR
 }
+Property = "SmartGit/Hg,SmartGit/Hg"
+{
+	@EDITOR
+}
+Property = "rapidsvn,Rapidsvn"
+{
+	@EDITOR
+}
 
 Property = "opera,Opera"
 {
@@ -182,15 +180,6 @@ Property = "konqueror,Konqueror"
 Property = "QupZilla Browser,QupZilla"
 {
 	@INTERNET
-}
-
-Property = "SmartGit/Hg,SmartGit/Hg"
-{
-	@REPOSITORY
-}
-Property = "rapidsvn,Rapidsvn"
-{
-	@REPOSITORY
 }
 
 Property = "Pidgin,Pidgin"
