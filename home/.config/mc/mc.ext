@@ -531,6 +531,7 @@ type/^PostScript
 
 # PDF
 type/^PDF
+	Open=okular %f
 	Open=/usr/lib/mc/ext.d/doc.sh open pdf
 	View=%view{ascii} /usr/lib/mc/ext.d/doc.sh view pdf
 

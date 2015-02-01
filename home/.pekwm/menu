@@ -35,6 +35,7 @@ RootMenu = "pekwm" {
 		Entry = "opera" { Actions = "Exec opera &" }
 		Entry = "iceweasel" { Actions = "Exec iceweasel &" }
 		Entry = "konqueror" { Actions = "Exec konqueror &" }
+		Entry = "otter-browser" { Actions = "Exec otter-browser &" }
 
 		Separator {}
 
