@@ -420,7 +420,7 @@ shell/.ico
 	Include=image
 
 include/image
-	Open=sbkview `basename %f` ALL_FORMATS
+	Open=gpicview `basename %f` ALL_FORMATS
 	Open=/usr/lib/mc/ext.d/image.sh open ALL_FORMATS
 	View=%view{ascii} /usr/lib/mc/ext.d/image.sh view ALL_FORMATS
 

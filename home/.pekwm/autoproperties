@@ -69,13 +69,16 @@ Property = "xsysguard,xsysguard"
 	Focusable = "False"
 }
 
-Property = "xterm,XTerm"
-{
-	Title = "mc.*"
+Property = "xterm,XTerm,,mc.*" {
 	Workspace = "2"
 	MaximizedVertical = "True"
 	ApplyOn = "New Start Reload"
 	Group = "mc" { Size = "0" }
+}
+
+Property = "xterm,XTerm,,pdsh" {
+	MaximizedHorizontal = "True"
+	ApplyOn = "New Start Reload"
 }
 
 Property = "kwrite,Kwrite"

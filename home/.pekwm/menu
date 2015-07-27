@@ -56,6 +56,7 @@ RootMenu = "pekwm" {
 
 	Submenu = "config" {
 		Entry = "synaptic" { Actions = "Exec gksu -u root /usr/sbin/synaptic &" }
+		Entry = "nmtui" { Actions = "Exec $TERM -e nmtui &" }
 		Entry = "xscreensaver" { Actions = "Exec xscreensaver-demo -prefs &" }
 
 		Separator {}
