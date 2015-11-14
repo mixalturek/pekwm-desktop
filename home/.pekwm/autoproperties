@@ -164,6 +164,10 @@ Property = "chromium-browser,Chromium-browser"
 {
 	@INTERNET
 }
+Property = "chromium-browser,chromium-browser"
+{
+	@INTERNET
+}
 Property = "chromium,Chromium"
 {
 	@INTERNET
