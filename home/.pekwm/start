@@ -51,3 +51,7 @@ icedove &
 chromium &
 #google-chrome &
 pidgin &
+
+# stalonetray &
+# sleep 1 && nm-applet &
+# sleep 3 && ~/bin/gui_reset.sh &

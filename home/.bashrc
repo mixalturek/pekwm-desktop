@@ -67,3 +67,5 @@ function xtar
 		tar -xvvzf $1
 	fi
 }
+
+export PDSH_SSH_ARGS="-2 -A -x -o BatchMode=yes -o StrictHostKeyChecking=no -o CheckHostIP=no %h"

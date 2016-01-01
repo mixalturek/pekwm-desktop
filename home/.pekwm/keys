@@ -123,19 +123,19 @@ Global {
 		KeyPress = "S" { Actions = "MoveToEdge Center" }
 	}
 	# Menus
-	Chain = "Ctrl Mod1 M" {
-		KeyPress = "R" { Actions = "ShowMenu Root" }
-		KeyPress = "W" { Actions = "ShowMenu Window" }
-		KeyPress = "I" { Actions = "ShowMenu Icon" }
-		KeyPress = "G" { Actions = "ShowMenu Goto" }
-		KeyPress = "C" { Actions = "ShowMenu GotoClient" }
-		KeyPress = "D" { Actions = "ShowMenu Decor" }
-		KeyPress = "A" { Actions = "ShowMenu AttachClientInFrame" }
-		KeyPress = "F" { Actions = "ShowMenu AttachFrameInFrame" }
-		Keypress = "Shift A" { Actions = "ShowMenu AttachClient" }
-		Keypress = "Shift F" { Actions = "ShowMenu AttachFrame" }
-		KeyPress = "X" { Actions = "HideAllMenus" }
-	}
+#	Chain = "Ctrl Mod1 M" {
+#		KeyPress = "R" { Actions = "ShowMenu Root" }
+#		KeyPress = "W" { Actions = "ShowMenu Window" }
+#		KeyPress = "I" { Actions = "ShowMenu Icon" }
+#		KeyPress = "G" { Actions = "ShowMenu Goto" }
+#		KeyPress = "C" { Actions = "ShowMenu GotoClient" }
+#		KeyPress = "D" { Actions = "ShowMenu Decor" }
+#		KeyPress = "A" { Actions = "ShowMenu AttachClientInFrame" }
+#		KeyPress = "F" { Actions = "ShowMenu AttachFrameInFrame" }
+#		Keypress = "Shift A" { Actions = "ShowMenu AttachClient" }
+#		Keypress = "Shift F" { Actions = "ShowMenu AttachFrame" }
+#		KeyPress = "X" { Actions = "HideAllMenus" }
+#	}
 	# Grouping
 	Chain = "Ctrl Mod1 T" {
 		KeyPress = "T" { Actions = "Toggle Tagged False" }
