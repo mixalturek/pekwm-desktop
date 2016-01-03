@@ -22,6 +22,10 @@ if (xrandr | grep "DP-1 connected"); then
 	xrandr --output DP-1 --auto --output LVDS-1 --off
 fi
 
+if (xrandr | grep "VGA1 connected"); then
+	xrandr --output VGA1 --auto --output LVDS-1 --off
+fi
+
 
 hsetroot -center ~/.pekwm/wallpapers/default.jpg &
 

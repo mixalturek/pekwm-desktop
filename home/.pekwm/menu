@@ -12,7 +12,6 @@ RootMenu = "pekwm" {
 	Separator {}
 
 	Entry = "idea" { Actions = "Exec idea.sh &" }
-	Entry = "eclipse" { Actions = "Exec eclipse &" }
 	Entry = "qtcreator" { Actions = "Exec qtcreator &" }
 	Entry = "kwrite" { Actions = "Exec kwrite &" }
 
@@ -56,14 +55,14 @@ RootMenu = "pekwm" {
 
 	Submenu = "config" {
 		Entry = "synaptic" { Actions = "Exec gksu -u root /usr/sbin/synaptic &" }
-		Entry = "nmtui" { Actions = "Exec $TERM -e nmtui &" }
 		Entry = "xscreensaver" { Actions = "Exec xscreensaver-demo -prefs &" }
+		Entry = "xscreensaver exit" { Actions = "Exec xscreensaver-command -exit &" }
 
 		Separator {}
-		
+
 		Entry = "stalonetray" { Actions = "Exec stalonetray &" }
 		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
-		Entry = "gui reset" { Actions = "Exec bin/gui_reset.sh &" }
+		Entry = "nmtui" { Actions = "Exec $TERM -e nmtui &" }
 		
 		Separator {}
 
@@ -97,6 +96,7 @@ RootMenu = "pekwm" {
 
 		Separator {}
 
+		Entry = "gui reset" { Actions = "Exec bin/gui_reset.sh &" }
 		Entry = "reload" { Actions = "Reload" }
 		Entry = "restart" { Actions = "Restart" }
 		Entry = "exit" { Actions = "Exit" }
