@@ -22,6 +22,9 @@ export EDITOR=vim
 . /etc/bash_completion
 
 alias grep='grep --color=auto -s --exclude-dir=.git'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias rgrep='rgrep --color=auto'
 alias ls='ls -hF --color=auto'
 alias ll='ls -lhF --color=auto'
 alias df='df -h'
