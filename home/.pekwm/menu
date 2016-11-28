@@ -35,12 +35,14 @@ RootMenu = "pekwm" {
 		Entry = "iceweasel" { Actions = "Exec iceweasel &" }
 		Entry = "konqueror" { Actions = "Exec konqueror &" }
 		Entry = "otter-browser" { Actions = "Exec otter-browser &" }
+		Entry = "vivaldi" { Actions = "Exec vivaldi &" }
 
 		Separator {}
 
 		Entry = "icedove" { Actions = "Exec icedove &" }
 		Entry = "esmska" { Actions = "Exec esmska &" }
 		Entry = "pidgin" { Actions = "Exec pidgin &" }
+		Entry = "slack" { Actions = "Exec slack &" }
 
 		Separator {}
 
@@ -81,7 +83,10 @@ RootMenu = "pekwm" {
 
 		Entry = "arandr" { Actions = "Exec arandr &" }
 		Entry = "auto" { Actions = "Exec xrandr --auto &" }
-		Entry = "monitor" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --off &" }
+		Entry = "lvds" { Actions = "Exec xrandr --output DP-1 --off --output LVDS-1 --auto &" }
+		Entry = "vga" { Actions = "Exec xrandr --output VGA1 --auto --output LVDS1 --off &" }
+		Entry = "dp" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --off &" }
+		Entry = "lvds dp" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --auto &" }
 
 		Separator {}
 

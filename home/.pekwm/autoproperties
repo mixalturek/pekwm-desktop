@@ -196,6 +196,14 @@ Property = "otter-browser,Otter"
 {
 	@INTERNET
 }
+Property = "crx_mpognobbkildjkofajifpdfhcoklimli,vivaldi-stable"
+{
+	@INTERNET
+}
+Property = "crx_mpognobbkildjkofajifpdfhcoklimli,Vivaldi-stable"
+{
+	@INTERNET
+}
 
 Property = "Pidgin,Pidgin"
 {

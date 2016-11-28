@@ -86,9 +86,7 @@ Global {
 	KeyPress = "XF86AudioLowerVolume" { Actions = "Exec bin/volume.sh 2%- &" }
 	KeyPress = "XF86AudioRaiseVolume" { Actions = "Exec bin/volume.sh 2%+ &" }
 
-	KeyPress = "Ctrl Shift Mod1 F1" { Actions = "Exec xrandr --output LVDS-1 --auto --output DP-1 --off &" }
-	KeyPress = "Ctrl Shift Mod1 F2" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --off &" }
-	KeyPress = "Ctrl Shift Mod1 F3" { Actions = "Exec xrandr --output VGA1 --auto --output LVDS1 --off &" }
+	KeyPress = "Ctrl Shift Mod1 F1" { Actions = "Exec xrandr --auto &" }
 
 	# Pekwm control
 	KeyPress = "Ctrl Mod1 Delete" { Actions = "Reload" }
