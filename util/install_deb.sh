@@ -32,8 +32,8 @@ apt-get install --yes kwrite
 apt-get install --yes libreoffice-common
 apt-get install --yes gimp
 apt-get install --yes chromium
-apt-get install --yes iceweasel # firefox
-apt-get install --yes icedove # thunderbird
+apt-get install --yes firefox
+apt-get install --yes thunderbird
 apt-get install --yes konqueror
 apt-get install --yes xscreensaver
 apt-get install --yes stalonetray
@@ -42,8 +42,7 @@ apt-get install --yes arandr
 apt-get install --yes droopy
 apt-get install --yes gksu
 apt-get install --yes meld
-apt-get install --yes pidgin
-apt-get install --yes qupzilla
+apt-get install --yes numlockx
 
 # apt-get install --yes libiw-dev # xsysguard compilation
 # apt-get install --yes libsensors4-dev # xsysguard compilation
