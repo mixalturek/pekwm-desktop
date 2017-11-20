@@ -11,7 +11,13 @@ RootMenu = "pekwm" {
 
 	Separator {}
 
-	Entry = "idea" { Actions = "Exec idea.sh &" }
+	Entry = "idea" { Actions = "Exec bin/idea.sh &" }
+	Entry = "jvisualvm" { Actions = "Exec jvisualvm &" }
+	Entry = "jmc" { Actions = "Exec jmc &" }
+	Entry = "mat" { Actions = "Exec /opt/mat/MemoryAnalyzer &" }
+
+	Separator {}
+
 	Entry = "qtcreator" { Actions = "Exec qtcreator &" }
 	Entry = "kwrite" { Actions = "Exec kwrite &" }
 
@@ -28,20 +34,16 @@ RootMenu = "pekwm" {
 	}
 
 	Submenu = "net" {
+		Entry = "vivaldi" { Actions = "Exec vivaldi &" }
 		Entry = "chrome" { Actions = "Exec google-chrome &" }
 		Entry = "chromium" { Actions = "Exec chromium &" }
-		Entry = "qupzilla" { Actions = "Exec qupzilla &" }
-		Entry = "opera" { Actions = "Exec opera &" }
-		Entry = "iceweasel" { Actions = "Exec iceweasel &" }
+		Entry = "firefox" { Actions = "Exec firefox &" }
 		Entry = "konqueror" { Actions = "Exec konqueror &" }
-		Entry = "otter-browser" { Actions = "Exec otter-browser &" }
-		Entry = "vivaldi" { Actions = "Exec vivaldi &" }
 
 		Separator {}
 
-		Entry = "icedove" { Actions = "Exec icedove &" }
+		Entry = "thunderbird" { Actions = "Exec thunderbird &" }
 		Entry = "esmska" { Actions = "Exec esmska &" }
-		Entry = "pidgin" { Actions = "Exec pidgin &" }
 		Entry = "slack" { Actions = "Exec slack &" }
 
 		Separator {}
@@ -62,6 +64,7 @@ RootMenu = "pekwm" {
 
 		Separator {}
 
+		Entry = "alsamixer" { Actions = "Exec $TERM -e alsamixer &" }
 		Entry = "stalonetray" { Actions = "Exec stalonetray &" }
 		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
 		Entry = "nmtui" { Actions = "Exec $TERM -e nmtui &" }
@@ -70,7 +73,7 @@ RootMenu = "pekwm" {
 
 		Entry = "xxkb" { Actions = "Exec xxkb &" }
 		Entry = "netwmpager" { Actions = "Exec netwmpager &" }
-		Entry = "xsysguard" { Actions = "Exec xsysguard_biggray biggray/temp &" }
+		Entry = "xsysguard" { Actions = "Exec xsysguard_biggray &" }
 
 		Separator {}
 
@@ -83,10 +86,11 @@ RootMenu = "pekwm" {
 
 		Entry = "arandr" { Actions = "Exec arandr &" }
 		Entry = "auto" { Actions = "Exec xrandr --auto &" }
-		Entry = "lvds" { Actions = "Exec xrandr --output DP-1 --off --output LVDS-1 --auto &" }
+		Entry = "lenovo" { Actions = "Exec xrandr --output DP-1 --off --output LVDS-1 --auto &" }
+		Entry = "lenovo monitor" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --off &" }
+		Entry = "dell" { Actions = "Exec xrandr --output DP-1-2 --off --output eDP-1 --auto &" }
+		Entry = "dell monitor" { Actions = "Exec xrandr --output DP-1-2 --auto --output eDP-1 --off &" }
 		Entry = "vga" { Actions = "Exec xrandr --output VGA1 --auto --output LVDS1 --off &" }
-		Entry = "dp" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --off &" }
-		Entry = "lvds dp" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --auto &" }
 
 		Separator {}
 

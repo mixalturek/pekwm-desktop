@@ -136,19 +136,19 @@ Global {
 #		KeyPress = "X" { Actions = "HideAllMenus" }
 #	}
 	# Grouping
-	Chain = "Ctrl Mod1 T" {
-		KeyPress = "T" { Actions = "Toggle Tagged False" }
-		KeyPress = "B" { Actions = "Toggle Tagged True" }
-		KeyPress = "C" { Actions = "Unset Tagged" }
-		KeyPress = "G" { Actions = "Toggle GlobalGrouping" }
-		KeyPress = "M" { Actions = "Toggle Marked" }
-		KeyPress = "A" { Actions = "AttachMarked" }
-		KeyPress = "D" { Actions = "Detach" }
-		Keypress = "P" { Actions = "AttachClientInNextFrame" }
-		KeyPress = "O" { Actions = "AttachClientInPrevFrame" }
-		Keypress = "I" { Actions = "AttachFrameInNextFrame" }
-		KeyPress = "U" { Actions = "AttachFrameInPrevFrame" }
-	}
+#	Chain = "Ctrl Mod1 T" {
+#		KeyPress = "T" { Actions = "Toggle Tagged False" }
+#		KeyPress = "B" { Actions = "Toggle Tagged True" }
+#		KeyPress = "C" { Actions = "Unset Tagged" }
+#		KeyPress = "G" { Actions = "Toggle GlobalGrouping" }
+#		KeyPress = "M" { Actions = "Toggle Marked" }
+#		KeyPress = "A" { Actions = "AttachMarked" }
+#		KeyPress = "D" { Actions = "Detach" }
+#		Keypress = "P" { Actions = "AttachClientInNextFrame" }
+#		KeyPress = "O" { Actions = "AttachClientInPrevFrame" }
+#		Keypress = "I" { Actions = "AttachFrameInNextFrame" }
+#		KeyPress = "U" { Actions = "AttachFrameInPrevFrame" }
+#	}
 	# Decor Toggles
 	Chain = "Ctrl Mod1 D" {
 		KeyPress = "B" { Actions = "Toggle DecorBorder" }

@@ -85,6 +85,10 @@ Property = "kwrite,Kwrite"
 {
 	@EDITOR
 }
+Property = "kwrite,kwrite"
+{
+	@EDITOR
+}
 Property = "qtcreator,Qtcreator"
 {
 	@EDITOR
@@ -160,6 +164,14 @@ Property = "Msgcompose,Icedove"
 {
 	@INTERNET
 }
+Property = "Mail,Thunderbird"
+{
+	@INTERNET
+}
+Property = "Msgcompose,Thunderbird"
+{
+	@INTERNET
+}
 Property = "chromium-browser,Chromium-browser"
 {
 	@INTERNET
@@ -176,6 +188,7 @@ Property = "Chromium,Chromium"
 {
 	@INTERNET
 }
+/*
 Property = "google-chrome,Google-chrome"
 {
 	@INTERNET
@@ -184,6 +197,7 @@ Property = "Google-chrome,Google-chrome"
 {
 	@INTERNET
 }
+*/
 Property = "konqueror,Konqueror"
 {
 	@INTERNET
@@ -206,6 +220,13 @@ Property = "crx_mpognobbkildjkofajifpdfhcoklimli,Vivaldi-stable"
 }
 
 Property = "Pidgin,Pidgin"
+{
+	Workspace = "5"
+	MaximizedVertical = "True"
+	ApplyOn = "New Start Reload"
+}
+
+Property = "slack,Slack"
 {
 	Workspace = "5"
 	MaximizedVertical = "True"

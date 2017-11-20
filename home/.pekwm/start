@@ -18,6 +18,10 @@
 # wasn't one, and I wanted to avoid that for pekwm. ;) --eyez
 
 # Switch to the monitor if connected to the notebook
+if (xrandr | grep "DP-1-2 connected"); then
+	xrandr --output DP-1-2 --auto --output eDP-1 --off
+fi
+
 if (xrandr | grep "DP-1 connected"); then
 	xrandr --output DP-1 --auto --output LVDS-1 --off
 fi
@@ -43,7 +47,7 @@ yeahconsole &
 xterm -title mc -e mc &
 
 netwmpager &
-xsysguard_biggray biggray/temp &
+xsysguard_biggray &
 xscreensaver &
 
 bin/keyboard_us_cz.sh &
@@ -51,9 +55,10 @@ xxkb &
 
 
 kwrite &
-icedove &
-chromium &
-#google-chrome &
+thunderbird &
+vivaldi &
+slack &
+bin/idea.sh &
 
 stalonetray &
 sleep 1 && nm-applet &

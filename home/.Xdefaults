@@ -4,8 +4,8 @@ xterm*cursorColor: orange
 xterm*visualbell: off
 xterm*font: -misc-fixed-medium-r-normal-*-*-140-*-*-c-*-iso10646-1
 
-yeahconsole*consoleHeight: 40
-yeahconsole*screenWidth: 1020
+yeahconsole*consoleHeight: 60
+yeahconsole*screenWidth: 1620
 yeahconsole*xOffset: 120
 yeahconsole*stepSize: 0
 yeahconsole*toggleKey: None+F1
