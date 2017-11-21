@@ -50,3 +50,5 @@ apt-get install --yes wireshark
 apt-get install --yes httpie
 apt-get install --yes okular
 apt-get install --yes pdsh
+apt-get install --yes pnmixer
+apt-get install --yes gpicview
