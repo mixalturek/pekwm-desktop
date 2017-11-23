@@ -17,6 +17,7 @@
 # because when I was doing fluxbox's docs, people used to complain that there
 # wasn't one, and I wanted to avoid that for pekwm. ;) --eyez
 
+
 # Switch to the monitor if connected to the notebook
 if (xrandr | grep "DP-1-2 connected"); then
 	xrandr --output DP-1-2 --auto --output eDP-1 --off
@@ -40,7 +41,7 @@ xset m 5/3 1 &
 xrdb -merge ~/.Xdefaults
 
 # Disable touchpad by default
-synclient TouchpadOff=1
+synclient TouchpadOff=1 &
 
 xterm &
 yeahconsole &
@@ -50,8 +51,6 @@ netwmpager &
 xsysguard_biggray &
 xscreensaver &
 
-bin/keyboard_us_cz.sh &
-xxkb &
 
 
 kwrite &
@@ -60,6 +59,10 @@ vivaldi &
 slack &
 bin/idea.sh &
 
-stalonetray &
-sleep 1 && nm-applet &
-sleep 3 && ~/bin/gui_reset.sh &
+bin/keyboard_us_cz.sh &
+xxkb &
+sleep 1 && stalonetray &
+sleep 2 && nm-applet &
+sleep 3 && bin/gui_reset.sh &
+pnmixer &
+

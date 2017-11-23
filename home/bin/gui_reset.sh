@@ -8,7 +8,7 @@ killall stalonetray 2> /dev/null
 xsysguard_biggray &
 netwmpager &
 xxkb &
-stalonetray &
+sleep 1 && stalonetray &
 
 hsetroot -center ~/.pekwm/wallpapers/default.jpg
 

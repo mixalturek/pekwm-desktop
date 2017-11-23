@@ -235,7 +235,7 @@ Property = "slack,Slack"
 
 Property = "gimp,Gimp"
 {
-	Workspace = "5"
+	Workspace = "6"
 	ApplyOn = "New Start Reload"
 }
 

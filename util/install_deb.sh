@@ -46,9 +46,12 @@ apt-get install --yes numlockx
 apt-get install --yes ttf-mscorefonts-installer
 apt-get install --yes statgrab # xsysguard
 apt-get install --yes net-tools # ifconfig, netstat
+apt-get install --yes dnsutils # nslookup
 apt-get install --yes wireshark
 apt-get install --yes httpie
 apt-get install --yes okular
 apt-get install --yes pdsh
 apt-get install --yes pnmixer
 apt-get install --yes gpicview
+apt-get install --yes inkscape
+apt-get install --yes kcolorchooser
