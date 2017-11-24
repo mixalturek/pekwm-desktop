@@ -114,6 +114,7 @@ RootMenu = "pekwm" {
 
 		Entry = "reboot" { Actions = "Exec sudo /sbin/reboot" }
 		Entry = "halt" { Actions = "Exec sudo /sbin/halt" }
+		Entry = "poweroff" { Actions = "Exec sudo /sbin/poweroff" }
 	}
 }
 

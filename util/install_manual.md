@@ -15,16 +15,6 @@ http://xsysguard.sourceforge.net/
 https://github.com/mixalturek/xsysguard
 
 
-## Special repositories
-
-```shell
-apt-get install google-chrome-stable
-apt-get install opera
-apt-get install esmska
-apt-get install subdownloader
-```
-
-
 ## Shutdown
 
 Allow user "username" to shutdown and reboot in sudo.
@@ -33,6 +23,7 @@ Allow user "username" to shutdown and reboot in sudo.
 su -
 visudo
 
+username       ALL= NOPASSWD: /sbin/poweroff
 username       ALL= NOPASSWD: /sbin/halt
 username       ALL= NOPASSWD: /sbin/reboot
 ```
