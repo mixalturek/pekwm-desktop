@@ -27,3 +27,9 @@ username       ALL= NOPASSWD: /sbin/poweroff
 username       ALL= NOPASSWD: /sbin/halt
 username       ALL= NOPASSWD: /sbin/reboot
 ```
+
+
+## Autologin
+
+vim /etc/lightdm/lightdm.conf
+autologin-user = username
