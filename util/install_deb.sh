@@ -55,3 +55,5 @@ apt-get install --yes pnmixer
 apt-get install --yes gpicview
 apt-get install --yes inkscape
 apt-get install --yes kcolorchooser
+apt-get install --yes ncdu
+apt-get install --yes rsync

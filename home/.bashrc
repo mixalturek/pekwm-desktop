@@ -34,11 +34,7 @@ alias make='colormake'
 alias cal='cal -y'
 alias unrar='unrar -kb '
 alias du1='du --max-depth=1'
-alias playdir='mplayer `ls -1 *.mp3 *.MP3 *.wma | shuf`'
-alias mplayer='mplayer -stop-xscreensaver '
-alias qtcreatorUpdateProject='find . -type f | sort'
 alias ipAddress="/sbin/ifconfig | grep 'inet addr:' | sed 's/.*inet addr:\([0-9]*.[0-9]*.[0-9]*.[0-9]*\).*/\1/'"
-alias droopyAddress="ipAddress | sed 's%^%http://%' | sed 's%$%:8000/%'"
 alias pythonHttpServer='python -m SimpleHTTPServer 50000'
 alias ideadiff='idea.sh diff'
 
