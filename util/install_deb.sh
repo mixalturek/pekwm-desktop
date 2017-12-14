@@ -57,3 +57,6 @@ apt-get install --yes inkscape
 apt-get install --yes kcolorchooser
 apt-get install --yes ncdu
 apt-get install --yes rsync
+apt-get install --yes colorgcc
+apt-get install --yes colormake
+apt-get install --yes detox
