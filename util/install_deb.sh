@@ -28,6 +28,7 @@ apt-get install --yes hsetroot
 apt-get install --yes htop
 apt-get install --yes httpie
 apt-get install --yes inkscape
+apt-get install --yes jmtpfs
 apt-get install --yes kcolorchooser
 apt-get install --yes konqueror
 apt-get install --yes ksnapshot
@@ -37,6 +38,7 @@ apt-get install --yes lxrandr
 apt-get install --yes mc
 apt-get install --yes meld
 apt-get install --yes mplayer
+apt-get install --yes mtp-tools
 apt-get install --yes ncdu
 apt-get install --yes net-tools # ifconfig, netstat
 apt-get install --yes numlockx
@@ -48,6 +50,7 @@ apt-get install --yes procps # watch
 apt-get install --yes rsync
 apt-get install --yes stalonetray
 apt-get install --yes statgrab # xsysguard
+apt-get install --yes strace
 apt-get install --yes thunderbird
 apt-get install --yes ttf-mscorefonts-installer
 apt-get install --yes unrar
