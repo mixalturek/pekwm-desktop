@@ -24,6 +24,7 @@ apt-get install --yes gimp
 apt-get install --yes gksu
 apt-get install --yes gmrun
 apt-get install --yes gpicview
+apt-get install --yes hplip
 apt-get install --yes hsetroot
 apt-get install --yes htop
 apt-get install --yes httpie
@@ -46,6 +47,7 @@ apt-get install --yes okular
 apt-get install --yes pdsh
 apt-get install --yes pekwm
 apt-get install --yes pnmixer
+apt-get install --yes printer-driver-all
 apt-get install --yes procps # watch
 apt-get install --yes rsync
 apt-get install --yes stalonetray
