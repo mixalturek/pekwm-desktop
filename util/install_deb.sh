@@ -19,6 +19,7 @@ apt-get install --yes colormake
 apt-get install --yes detox
 apt-get install --yes dnsutils # nslookup
 apt-get install --yes droopy
+apt-get install --yes exiftran
 apt-get install --yes firefox
 apt-get install --yes gimp
 apt-get install --yes gksu
@@ -30,6 +31,7 @@ apt-get install --yes htop
 apt-get install --yes httpie
 apt-get install --yes inkscape
 apt-get install --yes jmtpfs
+apt-get install --yes jq
 apt-get install --yes kcolorchooser
 apt-get install --yes konqueror
 apt-get install --yes ksnapshot
