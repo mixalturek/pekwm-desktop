@@ -52,6 +52,7 @@ apt-get install --yes pnmixer
 apt-get install --yes printer-driver-all
 apt-get install --yes procps # watch
 apt-get install --yes rsync
+apt-get install --yes shellcheck
 apt-get install --yes stalonetray
 apt-get install --yes statgrab # xsysguard
 apt-get install --yes strace
