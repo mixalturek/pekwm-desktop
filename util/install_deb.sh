@@ -21,6 +21,7 @@ apt-get install --yes dnsutils # nslookup
 apt-get install --yes droopy
 apt-get install --yes exiftran
 apt-get install --yes firefox
+apt-get install --yes gddccontrol
 apt-get install --yes gimp
 apt-get install --yes gksu
 apt-get install --yes gmrun
@@ -44,6 +45,7 @@ apt-get install --yes mplayer
 apt-get install --yes mtp-tools
 apt-get install --yes ncdu
 apt-get install --yes net-tools # ifconfig, netstat
+apt-get install --yes ngrep
 apt-get install --yes numlockx
 apt-get install --yes okular
 apt-get install --yes pdsh
