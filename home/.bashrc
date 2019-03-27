@@ -34,9 +34,17 @@ alias make='colormake'
 alias cal='cal -y'
 alias unrar='unrar -kb '
 alias du1='du --max-depth=1'
-alias ipAddress="/sbin/ifconfig | grep 'inet addr:' | sed 's/.*inet addr:\([0-9]*.[0-9]*.[0-9]*.[0-9]*\).*/\1/'"
+alias mplayer='mplayer -stop-xscreensaver '
+alias qtcreatorUpdateProject='find . -type f | sort'
+alias ipAddress="/sbin/ifconfig | grep 'inet ' | sed 's/.*inet \([0-9]*.[0-9]*.[0-9]*.[0-9]*\).*/\1/'"
+alias droopyAddress="ipAddress | sed 's%^%http://%' | sed 's%$%:8000/%'"
 alias pythonHttpServer='python -m SimpleHTTPServer 50000'
 alias ideadiff='idea.sh diff'
+alias mount_mobil='jmtpfs /mnt/mobil/ -o nonempty'
+alias umount_mobil='fusermount -u /mnt/mobil'
+alias urldecode='python -c "import sys, urllib; print urllib.unquote_plus(sys.argv[1])"'
+alias urlencode='python -c "import sys, urllib; print urllib.quote_plus(sys.argv[1])"'
+alias prettyjson='python -m json.tool'
 
 function ctar
 {
@@ -75,3 +83,7 @@ alias docker-rm-dangling-volumes='docker volume rm `docker volume ls -q -f dangl
 
 export PDSH_RCMD_TYPE="ssh"
 export PDSH_SSH_ARGS="-2 -A -x -o BatchMode=yes -o StrictHostKeyChecking=no -o CheckHostIP=no %h"
+
+export PATH="$PATH:$HOME/.cargo/bin"
+export RUST_BACKTRACE=full
+export RUSTC_WRAPPER=sccache

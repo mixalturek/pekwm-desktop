@@ -7,7 +7,7 @@ Files {
 Screen {
     Workspaces = "8"
     WorkspacesPerRow = "8"
-    WorkspaceNames = "term;files;edit;net;05;06;07;08"
+    WorkspaceNames = "01;02;03;04;05;06;07;08"
     ShowWorkspaceIndicator = "0"
 
     Placement {

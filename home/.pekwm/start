@@ -18,9 +18,17 @@
 # wasn't one, and I wanted to avoid that for pekwm. ;) --eyez
 
 
+source ~/.bashrc
+
+
 # Switch to the monitor if connected to the notebook
 if (xrandr | grep "DP-1-2 connected"); then
 	xrandr --output DP-1-2 --auto --output eDP-1 --off
+fi
+
+if (xrandr | grep "HDMI-1 connected"); then
+	xrandr --output HDMI-1 --off
+	xrandr --output HDMI-1 --auto --output eDP-1 --off
 fi
 
 if (xrandr | grep "DP-1 connected"); then
@@ -31,7 +39,7 @@ if (xrandr | grep "VGA1 connected"); then
 	xrandr --output VGA1 --auto --output LVDS-1 --off
 fi
 
-
+tint2 &
 hsetroot -center ~/.pekwm/wallpapers/default.jpg &
 
 # Slowdown the mouse
@@ -47,22 +55,21 @@ xterm &
 yeahconsole &
 xterm -title mc -e mc &
 
-netwmpager &
-xsysguard_biggray &
+# netwmpager &
+xsysguard.sh &
 xscreensaver &
-
 
 
 kwrite &
 thunderbird &
 vivaldi &
 slack &
-bin/idea.sh &
+idea.sh &
 
-bin/keyboard_us_cz.sh &
+keyboard_us_cz.sh &
 xxkb &
-sleep 1 && stalonetray &
+# sleep 1 && stalonetray &
 sleep 2 && nm-applet &
-sleep 3 && bin/gui_reset.sh &
+sleep 10 && gui_reset.sh &
 pnmixer &
 

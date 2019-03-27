@@ -72,6 +72,7 @@ Global {
 
 	# New terminal window
 	KeyPress = "Pause" { Actions = "Exec $TERM &" }
+	KeyPress = "Ctrl F12" { Actions = "Exec $TERM &" }
 
 	# Screenshot
 	KeyPress = "Print" { Actions = "Exec ksnapshot &" }
@@ -86,7 +87,7 @@ Global {
 	KeyPress = "XF86AudioLowerVolume" { Actions = "Exec bin/volume.sh 2%- &" }
 	KeyPress = "XF86AudioRaiseVolume" { Actions = "Exec bin/volume.sh 2%+ &" }
 
-	KeyPress = "Ctrl Shift Mod1 F1" { Actions = "Exec xrandr --auto &" }
+	KeyPress = "Ctrl F1" { Actions = "Exec xrandr --auto &" }
 
 	# Pekwm control
 	KeyPress = "Ctrl Mod1 Delete" { Actions = "Reload" }

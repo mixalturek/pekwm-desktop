@@ -49,7 +49,7 @@ Define = "EDITOR"
 	MaximizedHorizontal = "True"
 	MaximizedVertical = "True"
 	ApplyOn = "New Start Reload"
-	Group = "editor" { Size = "0" }
+	// Group = "editor" { Size = "0" }
 }
 
 Define = "INTERNET"
@@ -58,7 +58,7 @@ Define = "INTERNET"
 	MaximizedHorizontal = "True"
 	MaximizedVertical = "True"
 	ApplyOn = "New Start Reload"
-	Group = "internet" { Size = "0" }
+	// Group = "internet" { Size = "0" }
 }
 
 
@@ -73,7 +73,7 @@ Property = "xterm,XTerm,,mc.*" {
 	Workspace = "2"
 	MaximizedVertical = "True"
 	ApplyOn = "New Start Reload"
-	Group = "mc" { Size = "0" }
+	// Group = "mc" { Size = "0" }
 }
 
 Property = "xterm,XTerm,,pdsh" {
@@ -139,6 +139,14 @@ Property = "rapidsvn,Rapidsvn"
 {
 	@EDITOR
 }
+Property = "sun-awt-X11-XFramePeer,jetbrains-clion"
+{
+	@EDITOR
+}
+Property = "code,Code"
+{
+	@EDITOR
+}
 
 Property = "opera,Opera"
 {
@@ -149,6 +157,10 @@ Property = "Gecko,Firefox-bin"
 	@INTERNET
 }
 Property = "Navigator,Iceweasel"
+{
+	@INTERNET
+}
+Property = "Navigator,Firefox"
 {
 	@INTERNET
 }
@@ -215,6 +227,10 @@ Property = "crx_mpognobbkildjkofajifpdfhcoklimli,vivaldi-stable"
 	@INTERNET
 }
 Property = "crx_mpognobbkildjkofajifpdfhcoklimli,Vivaldi-stable"
+{
+	@INTERNET
+}
+Property = "vivaldi-stable,Vivaldi-stable"
 {
 	@INTERNET
 }

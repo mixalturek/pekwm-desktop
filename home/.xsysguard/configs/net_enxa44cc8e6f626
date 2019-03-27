@@ -1,0 +1,30 @@
+Set Name NET_enxa44cc8e6f626
+Set Size 96 81
+Set Background Color black
+Set Decorations off
+Set Position -0 450
+Set Layer Below
+Set Sticky on
+Set SkipTaskbar on
+Set SkipPager on
+
+ModuleEnv statgrab
+SetEnv INTERFACE2 enxa44cc8e6f626
+
+Rectangle 0 0 96 81 #555555
+
+LineChart 1 3 21 90 54 Min 0
++ statgrab:network_io_stats_diff:${INTERFACE2}:tx #266df3
++ statgrab:network_io_stats_diff:${INTERFACE2}:rx #538cf5
+
+Text 0 4 3 87 21 #266df3 DejaVuSansCondensed-Bold/8 TX
+
+Text 0 4 3 87 21 #538cf3 DejaVuSansCondensed-Bold/8 RX Alignment TopRight
+
+Text 0 4 3 87 21 #b0b0b0 DejaVuSansCondensed-Bold/8 enxa44 Alignment Center
+
+Text 1 4 24 87 18 #b0b0b0 DejaVuSansCondensed-Bold/8 "%d"
++ statgrab:network_io_stats_diff:${INTERFACE2}:tx,1024,DIV
+
+Text 1 4 24 87 18 #b0b0b0 DejaVuSansCondensed-Bold/8 "%d" Alignment TopRight
++ statgrab:network_io_stats_diff:${INTERFACE2}:rx,1024,DIV

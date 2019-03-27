@@ -38,12 +38,12 @@ RootMenu = "pekwm" {
 		Entry = "chrome" { Actions = "Exec google-chrome &" }
 		Entry = "chromium" { Actions = "Exec chromium &" }
 		Entry = "firefox" { Actions = "Exec firefox &" }
+		Entry = "firefox-esr" { Actions = "Exec firefox-esr &" }
 		Entry = "konqueror" { Actions = "Exec konqueror &" }
 
 		Separator {}
 
 		Entry = "thunderbird" { Actions = "Exec thunderbird &" }
-		Entry = "esmska" { Actions = "Exec esmska &" }
 		Entry = "slack" { Actions = "Exec slack &" }
 
 		Separator {}
@@ -65,6 +65,7 @@ RootMenu = "pekwm" {
 		Separator {}
 
 		Entry = "alsamixer" { Actions = "Exec $TERM -e alsamixer &" }
+		Entry = "gnome-alsamixer" { Actions = "Exec $TERM -e gnome-alsamixer &" }
 		Entry = "stalonetray" { Actions = "Exec stalonetray &" }
 		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
 		Entry = "nmtui" { Actions = "Exec $TERM -e nmtui &" }
@@ -86,11 +87,10 @@ RootMenu = "pekwm" {
 
 		Entry = "arandr" { Actions = "Exec arandr &" }
 		Entry = "auto" { Actions = "Exec xrandr --auto &" }
-		Entry = "lenovo" { Actions = "Exec xrandr --output DP-1 --off --output LVDS-1 --auto &" }
-		Entry = "lenovo monitor" { Actions = "Exec xrandr --output DP-1 --auto --output LVDS-1 --off &" }
 		Entry = "dell" { Actions = "Exec xrandr --output DP-1-2 --off --output eDP-1 --auto &" }
-		Entry = "dell monitor" { Actions = "Exec xrandr --output DP-1-2 --auto --output eDP-1 --off &" }
-		Entry = "vga" { Actions = "Exec xrandr --output VGA1 --auto --output LVDS1 --off &" }
+		Entry = "dell dp" { Actions = "Exec xrandr --output DP-1-2 --auto --output eDP-1 --off &" }
+		Entry = "dell hdmi" { Actions = "Exec xrandr --output HDMI-1 --auto --output eDP-1 --off &" }
+		Entry = "brightness" { Actions = "Exec gddccontrol &" }
 
 		Separator {}
 
