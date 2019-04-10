@@ -70,5 +70,3 @@ apt-get install --yes xserver-xorg-input-synaptics # synclient
 apt-get install --yes xterm
 apt-get install --yes xxkb
 apt-get install --yes yeahconsole
-apt-get install --yes orage # calendar
-apt-get install --yes tint2
