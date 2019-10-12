@@ -70,6 +70,8 @@ keyboard_us_cz.sh &
 xxkb &
 # sleep 1 && stalonetray &
 sleep 2 && nm-applet &
-sleep 10 && gui_reset.sh &
+#sleep 10 && gui_reset.sh &
 pnmixer &
 
+# synaptic pkexec
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &

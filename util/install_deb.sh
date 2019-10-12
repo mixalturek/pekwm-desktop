@@ -38,6 +38,7 @@ apt-get install --yes konqueror
 apt-get install --yes ksnapshot
 apt-get install --yes kwrite
 apt-get install --yes libreoffice-common
+apt-get install --yes libssl-dev # rust development
 apt-get install --yes lxrandr
 apt-get install --yes mc
 apt-get install --yes meld
@@ -50,7 +51,9 @@ apt-get install --yes numlockx
 apt-get install --yes okular
 apt-get install --yes pdsh
 apt-get install --yes pekwm
+apt-get install --yes pkg-config # rust development
 apt-get install --yes pnmixer
+apt-get install --yes policykit-1-gnome # synaptic
 apt-get install --yes printer-driver-all
 apt-get install --yes procps # watch
 apt-get install --yes rsync

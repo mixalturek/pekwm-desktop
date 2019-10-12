@@ -49,7 +49,7 @@ Define = "EDITOR"
 	MaximizedHorizontal = "True"
 	MaximizedVertical = "True"
 	ApplyOn = "New Start Reload"
-	// Group = "editor" { Size = "0" }
+	Group = "editor" { Size = "0" }
 }
 
 Define = "INTERNET"
@@ -58,7 +58,7 @@ Define = "INTERNET"
 	MaximizedHorizontal = "True"
 	MaximizedVertical = "True"
 	ApplyOn = "New Start Reload"
-	// Group = "internet" { Size = "0" }
+	Group = "internet" { Size = "0" }
 }
 
 
