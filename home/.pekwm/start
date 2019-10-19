@@ -39,7 +39,7 @@ if (xrandr | grep "VGA1 connected"); then
 	xrandr --output VGA1 --auto --output LVDS-1 --off
 fi
 
-tint2 &
+#tint2 &
 hsetroot -center ~/.pekwm/wallpapers/default.jpg &
 
 # Slowdown the mouse
@@ -49,26 +49,26 @@ xset m 5/3 1 &
 xrdb -merge ~/.Xdefaults
 
 # Disable touchpad by default
-synclient TouchpadOff=1 &
+#synclient TouchpadOff=1 &
 
 xterm &
 yeahconsole &
 xterm -title mc -e mc &
 
-# netwmpager &
+netwmpager &
 xsysguard.sh &
-xscreensaver &
+#xscreensaver &
 
 
 kwrite &
 thunderbird &
 vivaldi &
-slack &
+#slack &
 idea.sh &
 
 keyboard_us_cz.sh &
 xxkb &
-# sleep 1 && stalonetray &
+sleep 1 && stalonetray &
 sleep 2 && nm-applet &
 #sleep 10 && gui_reset.sh &
 pnmixer &

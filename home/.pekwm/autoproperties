@@ -114,6 +114,10 @@ Property = "sun-awt-X11-XFramePeer,jetbrains-idea-ce"
 {
 	@EDITOR
 }
+Property = "jetbrains-idea-ce,jetbrains-idea-ce"
+{
+	@EDITOR
+}
 Property = "sun-awt-X11-XDialogPeer,jetbrains-idea-ce"
 {
 	// Always on top
