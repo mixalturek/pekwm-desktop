@@ -9,17 +9,21 @@
 apt-get update
 
 apt-get install --yes acpi
+apt-get install --yes automake
+apt-get install --yes autoconf
 apt-get install --yes alsa-utils
 apt-get install --yes arandr
 apt-get install --yes bash-completion
 apt-get install --yes chromium
+apt-get install --yes cmake
 apt-get install --yes colorgcc
-apt-get install --yes colorgcc colormake
 apt-get install --yes colormake
+apt-get install --yes curl
 apt-get install --yes detox
 apt-get install --yes dnsutils # nslookup
 apt-get install --yes droopy
 apt-get install --yes exiftran
+apt-get install --yes featherpad
 apt-get install --yes firefox
 apt-get install --yes gddccontrol
 apt-get install --yes gimp
