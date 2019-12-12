@@ -89,6 +89,10 @@ Property = "kwrite,kwrite"
 {
 	@EDITOR
 }
+Property = "featherpad,FeatherPad"
+{
+	@EDITOR
+}
 Property = "qtcreator,Qtcreator"
 {
 	@EDITOR
@@ -184,7 +188,15 @@ Property = "Mail,Thunderbird"
 {
 	@INTERNET
 }
+Property = "Mail,thunderbird"
+{
+	@INTERNET
+}
 Property = "Msgcompose,Thunderbird"
+{
+	@INTERNET
+}
+Property = "Msgcompose,thunderbird"
 {
 	@INTERNET
 }
@@ -204,7 +216,6 @@ Property = "Chromium,Chromium"
 {
 	@INTERNET
 }
-/*
 Property = "google-chrome,Google-chrome"
 {
 	@INTERNET
@@ -213,7 +224,6 @@ Property = "Google-chrome,Google-chrome"
 {
 	@INTERNET
 }
-*/
 Property = "konqueror,Konqueror"
 {
 	@INTERNET

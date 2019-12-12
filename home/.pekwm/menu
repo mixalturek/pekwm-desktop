@@ -20,6 +20,7 @@ RootMenu = "pekwm" {
 
 	Entry = "qtcreator" { Actions = "Exec qtcreator &" }
 	Entry = "kwrite" { Actions = "Exec kwrite &" }
+	Entry = "featherpad" { Actions = "Exec featherpad &" }
 
 	Separator {}
 
@@ -87,9 +88,8 @@ RootMenu = "pekwm" {
 
 		Entry = "arandr" { Actions = "Exec arandr &" }
 		Entry = "auto" { Actions = "Exec xrandr --auto &" }
-		Entry = "dell" { Actions = "Exec xrandr --output DP-1-2 --off --output eDP-1 --auto &" }
-		Entry = "dell dp" { Actions = "Exec xrandr --output DP-1-2 --auto --output eDP-1 --off &" }
-		Entry = "dell hdmi" { Actions = "Exec xrandr --output HDMI-1 --auto --output eDP-1 --off &" }
+		Entry = "display" { Actions = "Exec xrandr --output HDMI-1 --off --output eDP-1 --auto &" }
+		Entry = "monitor" { Actions = "Exec xrandr --output HDMI-1 --auto --output eDP-1 --off &" }
 		Entry = "brightness" { Actions = "Exec gddccontrol &" }
 
 		Separator {}
