@@ -56,8 +56,8 @@ yeahconsole &
 xterm -title mc -e mc &
 
 netwmpager &
-xsysguard.sh &
-#xscreensaver &
+xsysguard_biggray &
+xscreensaver &
 
 
 #kwrite &
