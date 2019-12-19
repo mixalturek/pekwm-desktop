@@ -9,10 +9,11 @@
 apt-get update
 
 apt-get install --yes acpi
-apt-get install --yes automake
-apt-get install --yes autoconf
 apt-get install --yes alsa-utils
+apt-get install --yes apt-file
 apt-get install --yes arandr
+apt-get install --yes autoconf
+apt-get install --yes automake
 apt-get install --yes bash-completion
 apt-get install --yes chromium
 apt-get install --yes cmake
