@@ -4,6 +4,6 @@
 export RUSTC_WRAPPER=
 
 cargo install sccache
-rustup component add rustfmt-preview
-rustup component add clippy-preview
+rustup component add rustfmt
+rustup component add clippy
 cargo install cargo-audit
