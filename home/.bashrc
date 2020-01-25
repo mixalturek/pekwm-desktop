@@ -87,3 +87,5 @@ export PDSH_SSH_ARGS="-2 -A -x -o BatchMode=yes -o StrictHostKeyChecking=no -o C
 export PATH="$PATH:$HOME/.cargo/bin"
 export RUST_BACKTRACE=full
 export RUSTC_WRAPPER=sccache
+
+alias cargo_deps_update='cargo update && cargo outdated --root-deps-only'

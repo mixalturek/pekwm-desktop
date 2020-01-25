@@ -155,6 +155,10 @@ Property = "code,Code"
 {
 	@EDITOR
 }
+Property = "pgadmin3,Pgadmin3"
+{
+	@EDITOR
+}
 
 Property = "opera,Opera"
 {
