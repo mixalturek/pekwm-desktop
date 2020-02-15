@@ -93,6 +93,10 @@ Property = "featherpad,FeatherPad"
 {
 	@EDITOR
 }
+Property = "insomnia,Insomnia"
+{
+	@EDITOR
+}
 Property = "qtcreator,Qtcreator"
 {
 	@EDITOR
@@ -106,6 +110,10 @@ Property = "Eclipse,Eclipse"
 	@EDITOR
 }
 Property = "sun-awt-X11-XFramePeer,jetbrains-idea"
+{
+	@EDITOR
+}
+Property = "jetbrains-idea,jetbrains-idea"
 {
 	@EDITOR
 }

@@ -88,4 +88,9 @@ export PATH="$PATH:$HOME/.cargo/bin"
 export RUST_BACKTRACE=full
 export RUSTC_WRAPPER=sccache
 
+alias git_trigger_build='git pull && git commit --allow-empty -m "Trigger build" && git push'
+alias javaHome8='export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 ; export PATH=$JAVA_HOME/bin:$PATH'
+alias javaHome11='export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64 ; export PATH=$JAVA_HOME/bin:$PATH'
+alias mvn_deps_update='mvn versions:use-latest-releases versions:update-parent versions:update-properties'
+alias mvn_deps_tree='mvn dependency:tree 2>&1 | tee deps.txt'
 alias cargo_deps_update='cargo update && cargo outdated --root-deps-only'
