@@ -15,6 +15,7 @@ apt-get install --yes arandr
 apt-get install --yes autoconf
 apt-get install --yes automake
 apt-get install --yes bash-completion
+apt-get install --yes brightnessctl
 apt-get install --yes chromium
 apt-get install --yes cmake
 apt-get install --yes colorgcc
@@ -36,6 +37,7 @@ apt-get install --yes hsetroot
 apt-get install --yes htop
 apt-get install --yes httpie
 apt-get install --yes inkscape
+apt-get install --yes iotop
 apt-get install --yes jmtpfs
 apt-get install --yes jq
 apt-get install --yes kcolorchooser
