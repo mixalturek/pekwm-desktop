@@ -47,6 +47,7 @@ apt-get install --yes kwrite
 apt-get install --yes libreoffice-common
 apt-get install --yes libssl-dev # rust development
 apt-get install --yes lxrandr
+apt-get install --yes maven
 apt-get install --yes mc
 apt-get install --yes meld
 apt-get install --yes mplayer
