@@ -40,10 +40,10 @@ apt-get install --yes inkscape
 apt-get install --yes iotop
 apt-get install --yes jmtpfs
 apt-get install --yes jq
-apt-get install --yet kcalc
+apt-get install --yes kcalc
 apt-get install --yes kcolorchooser
+apt-get install --yes kde-spectacle
 apt-get install --yes konqueror
-apt-get install --yes ksnapshot
 apt-get install --yes kwrite
 apt-get install --yes libreoffice-common
 apt-get install --yes libssl-dev # rust development
@@ -71,6 +71,7 @@ apt-get install --yes stalonetray
 apt-get install --yes statgrab # xsysguard
 apt-get install --yes strace
 apt-get install --yes thunderbird
+apt-get install --yes traceroute
 apt-get install --yes ttf-mscorefonts-installer
 apt-get install --yes unrar
 apt-get install --yes vim

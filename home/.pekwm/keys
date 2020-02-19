@@ -75,7 +75,7 @@ Global {
 	KeyPress = "Ctrl F12" { Actions = "Exec $TERM &" }
 
 	# Screenshot
-	KeyPress = "Print" { Actions = "Exec ksnapshot &" }
+	KeyPress = "Print" { Actions = "Exec spectacle &" }
 
 	# Run program window
 	KeyPress = "Mod1 F2" { Actions = "Exec gmrun &" }
