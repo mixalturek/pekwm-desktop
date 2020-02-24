@@ -68,8 +68,8 @@ RootMenu = "pekwm" {
 		Separator {}
 
 		Entry = "alsamixer" { Actions = "Exec $TERM -e alsamixer &" }
-		Entry = "cinnamon-control-center" { Actions = "Exec $TERM -e cinnamon-control-center &" }
-		Entry = "cinnamon-settings" { Actions = "Exec $TERM -e cinnamon-settings &" }
+		Entry = "cinnamon-control-center" { Actions = "Exec cinnamon-control-center &" }
+		Entry = "cinnamon-settings" { Actions = "Exec cinnamon-settings &" }
 		Entry = "stalonetray" { Actions = "Exec stalonetray &" }
 		Entry = "nm-applet" { Actions = "Exec nm-applet &" }
 		Entry = "nmtui" { Actions = "Exec $TERM -e nmtui &" }
