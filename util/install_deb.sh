@@ -24,6 +24,7 @@ apt-get install --yes curl
 apt-get install --yes detox
 apt-get install --yes dnsutils # nslookup
 apt-get install --yes droopy
+apt-get install --yes exif
 apt-get install --yes exiftran
 apt-get install --yes featherpad
 apt-get install --yes firefox
