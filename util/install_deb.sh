@@ -57,6 +57,7 @@ apt-get install --yes mtp-tools
 apt-get install --yes ncdu
 apt-get install --yes net-tools # ifconfig, netstat
 apt-get install --yes ngrep
+apt-get install --yes ntpdate
 apt-get install --yes numlockx
 apt-get install --yes okular
 apt-get install --yes pdsh

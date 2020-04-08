@@ -29,6 +29,23 @@ username       ALL= NOPASSWD: /sbin/reboot
 ```
 
 
+## Mount
+
+```
+# /etc/fstab
+/dev/sda1 /mnt/usb auto defaults,user,noauto 0 0
+/dev/sda2 /mnt/ext auto defaults,user,noauto 0 0
+```
+
+```
+mkdir -p /mnt/usb /mnt/ext /mnt/mobil
+chmod 777 /mnt/usb /mnt/ext /mnt/mobil
+touch /mnt/usb/__unmounted__
+touch /mnt/ext/__unmounted__
+touch /mnt/mobil/__unmounted__
+```
+
+
 ## Autologin
 
 vim /etc/lightdm/lightdm.conf
