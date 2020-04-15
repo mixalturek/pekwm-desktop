@@ -77,6 +77,7 @@ apt-get install --yes traceroute
 apt-get install --yes ttf-mscorefonts-installer
 apt-get install --yes unrar
 apt-get install --yes vim
+apt-get install --yes vlc
 apt-get install --yes wireshark
 apt-get install --yes x11-xserver-utils # xset, xrdb, xrandr
 apt-get install --yes xosd-bin
